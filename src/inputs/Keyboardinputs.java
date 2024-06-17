@@ -5,10 +5,10 @@ import java.awt.event.KeyListener;
 
 import main.GamePanel;
 
-public class Keyboardinputs implements KeyListener {
+public class KeyboardInputs implements KeyListener {
 	
 	private GamePanel gamePanel;
-	public Keyboardinputs(GamePanel gamePanel) {
+	public KeyboardInputs(GamePanel gamePanel) {
 		this.gamePanel = gamePanel;
 	}
 
