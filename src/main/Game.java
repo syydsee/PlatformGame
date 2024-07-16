@@ -33,7 +33,6 @@ public class Game implements Runnable {
 			
 			now = System.nanoTime();
 			if(now - lastFrame >= timePerFrame) {
-				
 				gamePanel.repaint();
 				lastFrame = now;
 				frames++;
